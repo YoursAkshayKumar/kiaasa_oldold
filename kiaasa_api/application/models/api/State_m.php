@@ -14,26 +14,26 @@ class State_m extends MY_Model {
 
 
 
-    public function getStoreCount($storename){
-        $this->db->select('id');
-        $this->db->from('state_list');
-        $this->db->where('store_name', $storename);
-        return $this->db->get()->num_rows();
-    }
+    // public function getStoreCount($storename){
+    //     $this->db->select('id');
+    //     $this->db->from('state_list');
+    //     $this->db->where('store_name', $storename);
+    //     return $this->db->get()->num_rows();
+    // }
 
-    public function getValidUser($username, $password){
-        $this->db->select('*');
-        $this->db->from('users');
-        $this->db->where('email', $username);
-        $user = $this->db->get()->row();
+    // public function getValidUser($username, $password){
+    //     $this->db->select('*');
+    //     $this->db->from('users');
+    //     $this->db->where('email', $username);
+    //     $user = $this->db->get()->row();
 
-        if(password_verify($password, $user->password)){
-            return $user;
-        }
-        else{
-            return false;
-        }
-    }
+    //     if(password_verify($password, $user->password)){
+    //         return $user;
+    //     }
+    //     else{
+    //         return false;
+    //     }
+    // }
 
 
     public function getStates(){

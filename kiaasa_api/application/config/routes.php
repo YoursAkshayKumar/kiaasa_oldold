@@ -24,6 +24,7 @@ $route['getcategory'] = 'api/category/category/getcategory';
 //Products
 $route['getallproduct'] = 'api/products/product/getAllProducts';
 
+
 /************************************************************/
 //Store Api
 $route['addstore'] = 'api/store/store/addStore';
@@ -33,7 +34,7 @@ $route['v1/delete-image'] = 'backend/media/deleteimage';
 
 
 
-$route['getstate'] = 'api/states/states/getState';
+$route['getstate'] = 'api/states/states/getStates';
 $route['v1/updatebrand/(:any)'] = 'api/backend/brand/';
 $route['v1/delete-image'] = 'backend/media/deleteimage';
 

@@ -11,7 +11,7 @@ class States extends MY_Controller
 
 
 
-	public function getState()
+	public function getStates()
 	{
 		if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 		

@@ -1,5 +1,5 @@
 <?php
-use MY_Controller;
+use CI_Controller;
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
@@ -15,7 +15,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @link            https://github.com/chriskacerguis/codeigniter-restserver
  * @version         3.0.0
  */
-abstract class REST_Controller extends \MY_Controller {
+abstract class REST_Controller extends \CI_Controller {
 
     // Note: Only the widely used HTTP status codes are documented
 

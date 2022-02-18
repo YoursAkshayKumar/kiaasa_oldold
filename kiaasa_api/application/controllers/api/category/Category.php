@@ -1,5 +1,5 @@
 <?php
-
+require APPPATH . 'libraries/Rest_Controller.php';
 class Category extends MY_Controller{
 
 	public function __construct(){
